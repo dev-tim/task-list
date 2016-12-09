@@ -14,11 +14,16 @@ Demo version of this app is running here: [https://wunderchallenge.herokuapp.com
 
 To start application please run following scripts:
 
-```apple js
+```
 npm install // to install dependencies 
 npm test    // to run tests
+
+export WUNDER_APP_CLIENT_ID=<your app clientId>
+export WUNDER_APP_CLIENT_SECRET=<your app clientSecret>
+
 npm run dev   // to start application in development mode
 npm run wundertree // to see how wunderlist data structures can be transformed into wunder-tree
+
 ```
 
 Last command will start `weback-dev-server` on port `3000` and spawn up 
@@ -67,7 +72,6 @@ export function addTask(listId, title) {
 
 It will result in dispatching 2 actions and ajax call to the backend. `ADD_TASK` will be issued immediately 
 and in case of successful response `ADD_TASK_SUCCESS` with attached response payload. 
-
 
 
 ## Known issues/Improvements
