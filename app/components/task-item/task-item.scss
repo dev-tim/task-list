@@ -1,0 +1,51 @@
+@import "../../variables";
+
+$task-item-height: 50px;
+
+$task-item-border-width: 1px;
+$task-item-border-radius: 3px;
+
+$task-checkbox-size: 18px;
+
+$task-item-title-width: 75%;
+
+.task-item {
+  background-color: $color-blue;
+  border: $task-item-border-width solid $color-black;
+  border-radius: $task-item-border-radius;
+  font-size: $default-text-size;
+  height: $task-item-height;
+  width: 100%;
+
+  margin: 5px 0;
+  padding: 5px 15px;
+  list-style: none;
+
+  .checkbox {
+    display: inline-block;
+    width: $task-checkbox-size;
+    height: $task-checkbox-size;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+
+  &--completed {
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+
+  &--loading {
+    background: $color-green;
+  }
+
+  &__text {
+    display: inline-block;
+    width: $task-item-title-width;
+    color: $color-black;
+    white-space: nowrap;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+    margin: 7px;
+  }
+}

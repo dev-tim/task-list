@@ -1,0 +1,21 @@
+@import "../../variables";
+
+$checkbox-border-size: 3px;
+$checkbox-size: 13px;
+
+.checkbox {
+  position: relative;
+  display: inline-block;
+
+  border: $checkbox-border-size solid $color-black;
+  background: $color-bright-green;
+  border-radius: $checkbox-border-size;
+  height: $checkbox-size;
+
+  width: $checkbox-size;
+  cursor: pointer;
+
+  &--checked {
+    background: $color-blue;
+  }
+}

@@ -1,0 +1,42 @@
+LIST: Inbox
+  TASK: Make dentist appointment (*)
+FOLDER: At home
+  LIST: Groceries
+    TASK: Milk
+    TASK: Butter
+    TASK: Carrots
+  LIST: Books to read
+    TASK: In Search of Lost Time (*)
+    TASK: Don Quixote
+    TASK: War and Peace
+    TASK: Ulysses
+  LIST: Movies to watch
+    TASK: Citizen Kane
+    TASK: The Shawshank Redemption
+    TASK: Precious
+    TASK: Eternal sunshine of the spotless mind
+FOLDER: At work
+  LIST: Meetings to prepare
+    TASK: Scrum planning for automatic task completer
+  LIST: Code to write
+    TASK: Unit test for automatic test completer
+    TASK: Automatic task completer
+  LIST: Talks to give
+    TASK: How to automatically finish tasks for users
+LIST: Urgent things
+FOLDER: Trip to Argentina
+  LIST: Food to try
+    TASK: Steak
+    TASK: Dulce de leche cake
+  LIST: Music to listen to
+    TASK: Los Piojos
+    TASK: Almafuerte
+    TASK: Bersuit Vergarabat
+  LIST: Travel guides to read
+    TASK: Rough guide
+    TASK: Lonely planet
+  LIST: Road trips to plan
+    TASK: Patagonia
+  LIST: Wildlife to see
+    TASK: Penguins in the south
+    TASK: Killer whales at Valdez peninsula
